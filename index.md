@@ -6,7 +6,7 @@
 
 <p>Click on lain to start</p>
 
-<img src="/serial-experiments-lain-ps1-all-cutscenes.mp4_snapshot_04.58_2020.02.19_17.30.50.png" />
+<img src="/serial-experiments-lain-ps1-all-cutscenes.mp4_snapshot_04.58_2020.02.19_17.30.50.PNG" />
 
 <p id="demo"></p>
 
