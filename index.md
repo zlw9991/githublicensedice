@@ -19,10 +19,10 @@
   console.log('clicked')
   document.getElementById('bigpic').style.display='block';
   
-  setTimeout(function(){
+  
     document.getElementById("demo").innerHTML = "Rolling...";
-}, 1000);
-   
+    
+   wait(1000);
   
   
   
