@@ -12,9 +12,29 @@
 
 <script>
   const img = document.querySelector('img')
-img.onclick = () => {
+  img.onclick = () => {
   console.log('clicked')
-  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  count = 0
+  lodc = 0
+  while(count !=10){
+  setTimeout(function(){
+    console.log("Executed after 1 second");
+}, 1000);
+  if(lodc = 1){
+  document.getElementById("demo").innerHTML = "Rolling.";
+  }
+  
+  if(lodc = 2){
+  document.getElementById("demo").innerHTML = "Rolling..";
+  }
+  
+  if(lodc = 3){
+  document.getElementById("demo").innerHTML = "Rolling...";
+  lodc = 1;
+  }
+  lodc++;
+  count++;
+  }
 }
 
 </script> 
