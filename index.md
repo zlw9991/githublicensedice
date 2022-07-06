@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
+
 
 
 
@@ -21,7 +19,6 @@ img.onclick = () => {
 
 </script> 
 
-</body>
-</html> 
+
 
 
