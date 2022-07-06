@@ -18,19 +18,11 @@
   img.onclick = () => {
   console.log('clicked')
   document.getElementById('bigpic').style.display='block';
-  count = 1;
-  while(count <=3){
-  setTimeout(function(){
-    document.getElementById("demo").innerHTML = "Rolling.";
-}, 1000);
-  setTimeout(function(){
-    document.getElementById("demo").innerHTML = "Rolling..";
-}, 1000);
+  
   setTimeout(function(){
     document.getElementById("demo").innerHTML = "Rolling...";
 }, 1000);
-   count++;
-  }
+   
   
   
   
