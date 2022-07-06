@@ -20,21 +20,18 @@
   document.getElementById('bigpic').style.display='block';
   
   
+  setTimeout(function(){
+    document.getElementById("demo").innerHTML = "Rolling. ";
+}, 1000);
   
-    document.getElementById("demo").innerHTML = "Rolling.";
-    
-   await new Promise(r => setTimeout(r, 2000));
+  setTimeout(function(){
+    document.getElementById("demo").innerHTML = "Rolling.. ";
+}, 1000);
   
-    document.getElementById("demo").innerHTML = "Rolling..";
-    
-   await new Promise(r => setTimeout(r, 2000));
-    document.getElementById("demo").innerHTML = "Rolling...";
-    
-   await new Promise(r => setTimeout(r, 2000));
+  setTimeout(function(){
+    document.getElementById("demo").innerHTML = "Rolling... ";
+}, 1000);
   
-  
-  
-    document.getElementById("demo").innerHTML = "You rolled: ";
 
   
 }
