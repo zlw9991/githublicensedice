@@ -4,12 +4,19 @@
 
 <h1>Github License Dice</h1>
 
-<p>Click on lain to roll the dice</p>
+<p>Click on lain to start</p>
+
+<img src="https://github.com/zlw9991/githublicensedice/blob/main/tumblr_d4078a5c23136269c08c7da8f91d7b34_603aa287_1280.gif" />
 
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  const img = document.querySelector('img')
+img.onclick = () => {
+  console.log('clicked')
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+
 </script> 
 
 
