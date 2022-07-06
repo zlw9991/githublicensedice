@@ -6,7 +6,7 @@
 
 <p>Click on lain to start</p>
 
-<img src="/serial-experiments-lain-ps1-all-cutscenes.mp4_snapshot_04.58_2020.02.19_17.30.50.PNG" />
+<img src="https://github.com/zlw9991/githublicensedice/blob/main/serial-experiments-lain-ps1-all-cutscenes.mp4_snapshot_04.58_2020.02.19_17.30.50.png" />
 
 <p id="demo"></p>
 
