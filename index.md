@@ -18,7 +18,7 @@
   img.onclick = () => {
   console.log('clicked')
   document.getElementById('bigpic').style.display='block';
-  count = 1
+  count = 1;
   while(count <=3){
   setTimeout(function(){
     document.getElementById("demo").innerHTML = "Rolling.";
