@@ -6,7 +6,7 @@
 
 <p>Click on lain to start</p>
 
-<img src="https://github.com/zlw9991/githublicensedice/blob/main/tumblr_d4078a5c23136269c08c7da8f91d7b34_603aa287_1280.gif" />
+<img src="/tumblr_d4078a5c23136269c08c7da8f91d7b34_603aa287_1280.gif" />
 
 <p id="demo"></p>
 
