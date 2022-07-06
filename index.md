@@ -21,6 +21,9 @@
   document.getElementById("demo").innerHTML = "Rolling...";
   document.getElementById('bigpic').style.display='block';
   
+  setTimeout(function(){
+    document.getElementById("demo").innerHTML = "You rolled: ";
+}, 5000);
   
 }
 
