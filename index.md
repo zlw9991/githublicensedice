@@ -2,9 +2,12 @@
 <html>
 <body>
 
-<h1>My First Heading</h1>
+<h1>Github License Dice</h1>
 
-<p>My first paragraph.</p>
+<p>Click on lain to roll the dice</p>
+ 
+ 
+ 
 
 </body>
 </html>
