@@ -21,7 +21,8 @@
   
   setTimeout(function(){
     document.getElementById("demo").innerHTML = "You Rolled: ";
-}, 1000);
+}, 5000);
+  
   document.getElementById("demo").innerHTML = "Rolling... ";
 
   
