@@ -10,31 +10,18 @@
 
 <p id="demo"></p>
 
+<img id="bigpic" src="https://raw.githubusercontent.com/zlw9991/githublicensedice/blob/main/tumblr_d4078a5c23136269c08c7da8f91d7b34_603aa287_1280.gif" style="display:none;"/>
+
+
 <script>
   const img = document.querySelector('img')
   img.onclick = () => {
   console.log('clicked')
-  count = 0
-  lodc = 0
-  while(count !=10){
-  setTimeout(function(){
-    console.log("Executed after 1 second");
-}, 1000);
-  if(lodc = 1){
-  document.getElementById("demo").innerHTML = "Rolling.";
-  }
   
-  if(lodc = 2){
-  document.getElementById("demo").innerHTML = "Rolling..";
-  }
-  
-  if(lodc = 3){
   document.getElementById("demo").innerHTML = "Rolling...";
-  lodc = 1;
-  }
-  lodc++;
-  count++;
-  }
+  document.getElementById('bigpic').style.display='block';
+  
+  
 }
 
 </script> 
