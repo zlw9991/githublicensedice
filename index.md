@@ -20,9 +20,17 @@
   document.getElementById('bigpic').style.display='block';
   
   
+  
+    document.getElementById("demo").innerHTML = "Rolling.";
+    
+   await new Promise(r => setTimeout(r, 2000));
+  
+    document.getElementById("demo").innerHTML = "Rolling..";
+    
+   await new Promise(r => setTimeout(r, 2000));
     document.getElementById("demo").innerHTML = "Rolling...";
     
-   wait(1000);
+   await new Promise(r => setTimeout(r, 2000));
   
   
   
